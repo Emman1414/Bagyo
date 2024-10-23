@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body>
+    <header class="fixed w-full z-[9999] pt-20 bg-transparent text-white">
+      <div class="container mx-auto">
+        <div
+          class="flex justify-between items-center border-b border-white translate-y-4"
+        >
+          <div class="header__logo">
+            <h2 class="text-4xl font-bold flex">
+              n
+              <p class="text-primary">.</p>
+              e
+              <p class="text-primary">.</p>
+              v
+            </h2>
+          </div>
+          <ul class="flex gap-8">
+            <li>
+              <a
+                href="#"
+                class="text-white font-light text-xl pb-12 w-40 hover:border-b-4 border-primary"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white font-light text-xl pb-12 w-40 hover:border-b-4 border-primary"
+                >Tours</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white font-light text-xl pb-12 w-40 hover:border-b-4 border-primary"
+                >Galleries</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white font-light text-xl pb-12 w-40 hover:border-b-4 border-primary"
+                >Reviews</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="text-white font-light text-xl pb-12 w-40 hover:border-b-4 border-primary"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- BANNER -->
+
+    <section
+      class="banner bg-about bg-cover bg-no-repeat bg-fixed w-screen h-[150vh] flex relative transform -translate-y-24 "
+    >
+      <div class="banner__wrapper flex w-full h-full text-white p-28 relative lg:mx-auto">
+        <div
+          class="banner__content flex flex-col gap-12 items-start w-[50rem] absolute top-80 right-[-1rem]"
+        >
+          <ul class="mb-12">
+            <h2 class="text-[70px] font-bold">n.e.v</h2>
+            <h3 class="text-3xl text-primary">Never Ending Voyage</h3>
+          </ul>
+          <p class="text-[15px]">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            consequatur ipsam, eveniet, repellat aliquam dolores aperiam enim
+            voluptas at, totam vel ab doloribus repudiandae fugit dolorem
+            numquam quas! Natus, consequatur.
+          </p>
+          <a href="#" class="btn bg-primary text-white py-2 px-4">Learn More</a>
+        </div>
+        <div
+          class="banner__services grid absolute top-[85%] justify-center items-center p-8 gap-8 grid-cols-3 max-w-[90%] border-b border-white"
+        >
+          <div class="card flex gap-8 cursor-pointer relative active">
+            <img src="./img/car.png" alt="" class="w-16 h-16" />
+            <div class="card--details">
+              <h2>Services 1</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reiciendis?
+              </p>
+            </div>
+            <div
+              class="after absolute h-2 w-full bg-primary rounded-2xl bottom-[-5px] left-0"
+            ></div>
+          </div>
+          <div class="card flex gap-8 cursor-pointer relative">
+            <img src="./img/car.png" alt="" class="w-16 h-16" />
+            <div class="card--details">
+              <h2>Services 2</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reiciendis?
+              </p>
+            </div>
+          </div>
+          <div class="card flex gap-8 cursor-pointer relative">
+            <img src="./img/car.png" alt="" class="w-16 h-16" />
+            <div class="card--details">
+              <h2>Services 3</h2>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Reiciendis?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/serviceCard.js"></script>
+  </body>
+</html>
